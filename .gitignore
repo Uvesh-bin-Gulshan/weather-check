@@ -1,35 +1,73 @@
-# Python
-*.pyc
-*.pyo
-*.pyd
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.db
-*.sqlite3
+*.py[cod]
+*$py.class
 
-# Django
+# Django specific
 *.log
 *.pot
 *.pyc
 *.pyo
-*.pyd
-__pycache__/
-media/
+*.sqlite3
+db.sqlite3
+instance/
+.media/
 staticfiles/
-*.DS_Store
+*.mo
 
-# Virtual Environment
-# venv/
-# env/
-# ENV/
-# .venv/
-# .env
+# If you are using PostgreSQL
+*.pgdata
 
-# IDEs and Editors
-.vscode/
+# Local environment settings
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# PyCharm
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# OS generated files
-Thumbs.db
+# VSCode
+.vscode/
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Testing
+.tox/
+.nox/
+coverage/
+*.cover
+*.py,cover
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre ty
